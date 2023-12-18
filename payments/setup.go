@@ -6,7 +6,7 @@ import (
 )
 
 func setupStripe() {
-	stripe.Key = "Your stripe secret key"
+	stripe.Key = "===YOUR STRIPE SECRET KEY==="
 }
 
 func setupRouter(router *gin.Engine, handler Handler) {

@@ -1,6 +1,6 @@
 package cart
 
-import "github.com/jayndu/stripe-payments/payments"
+import "github.com/anshulweb3/stripe-payments/payments"
 
 type CartTransactionManager struct {
 }

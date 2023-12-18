@@ -3,7 +3,7 @@ package cart
 import (
 	"fmt"
 
-	"github.com/jayndu/stripe-payments/payments"
+	"github.com/anshulweb3/stripe-payments/payments"
 )
 
 func setupPayments(clientManager payments.ClientManager) {

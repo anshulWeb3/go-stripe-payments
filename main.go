@@ -1,9 +1,9 @@
 package main
 
 import (
+	"github.com/anshulweb3/stripe-payments/cart"
+	"github.com/anshulweb3/stripe-payments/payments"
 	"github.com/gin-gonic/gin"
-	"github.com/jayndu/stripe-payments/cart"
-	"github.com/jayndu/stripe-payments/payments"
 )
 
 func CORSMiddleware() gin.HandlerFunc {
