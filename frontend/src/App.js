@@ -3,7 +3,7 @@ import { Elements, PaymentElement, useElements, useStripe } from '@stripe/react-
 import { loadStripe } from '@stripe/stripe-js'
 
 
-const stripePromise = loadStripe('Your stripe public key');
+const stripePromise = loadStripe('===YOUR STRIPE PUBLIC KEY===');
 
 function App() {
   const [clientSecret, setClientSecret] = useState(null);
